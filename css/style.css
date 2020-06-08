@@ -9,6 +9,11 @@ h1 {
     text-align: center;
     font-size: 5vw;
 }
+p {
+    color: white;
+}
+
+
 
 body {
     font-family: sans-serif;
@@ -44,7 +49,7 @@ a:hover {
     background-image: url(../img/logo2.png);
     background-repeat: no-repeat;
     height: 100px;
-    width: 220px;
+    width: 200px;
 }
 .button.secondary {
     border-bottom: 1px #444 solid;
@@ -74,22 +79,37 @@ a:hover {
     display: block;
 }
 body{
+    /* Set backround image */
     background-image: url(../img/slime.jpg);
+    /* Let the background image cover the whole page */
     background-size: cover;
+    /* Do not let the background repeat, only one time the image is shown */
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .content{
     width: 50%;
-    height: 300px;
-    background-color: green;
-    opacity: 50%;
+    height: 20%px;
+    /* background: rgba(0, 151, 19, 0.3); */
+    /* Center the content in tablet mode */
     margin: auto;
     margin-top: 2%;
+    margin-bottom: 10%;
+    padding: 1%;
+    padding-bottom: 200%;
     border-radius: 5%;
-    border-style: solid;
-    border-color: black;
+    /* border-style: solid;
+    border-color: black; */
+    background-image: url(../img/border.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 
+
+}
+
+.content.div {
+    height: 500px;
 }
 .flex-container {
     display: flex;
@@ -148,21 +168,28 @@ body{
     }
     .content{
         width: 50%;
-        height: 300px;
-        background-color: green;
-        opacity: 50%;
-        margin-left: 5%;
-        margin-right: 5%;
+        height: 20%;
+        /* background: rgba(0, 151, 19, 0.3); */
+        /* Center the content in tablet mode */
+        margin: auto;
         margin-top: 2%;
         border-radius: 5%;
-        border-style: solid;
-        border-color: black;
+        /* border-style: solid;
+        border-color: black; */
+        padding-bottom: 130%;
+        font-size: 2.5vw;
+        text-align: center;
+        background-image: url(../img/border.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .flex-container {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
     }
+    
 }
 
 /* Desktop menu */
@@ -197,15 +224,25 @@ body{
     }
     .content{
         width: 40%;
-        height: 300px;
-        background-color: green;
-        opacity: 50%;
+        height: 100%;
+        /* background: rgba(0, 151, 19, 0.3); */
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 2%;
+        padding-bottom: 30%;
         border-radius: 5%;
-        border-style: solid;
-        border-color: black;
+        /* border-style: solid;
+        border-color: black; */
+        /* To scale the text within the container i used vw instead of px */
+        font-size: 1.2vw;
+        /* Align the text to the left */
+        text-align: left;
+        background-image: url(../img/border.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* border-width: 20px; */
+        
     }
     .flex-container {
         display: flex;
