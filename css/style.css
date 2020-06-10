@@ -19,7 +19,7 @@ body {
     font-family: sans-serif;
 }
 nav {
-    background: green;
+    background: black;
     padding: 5px 20px;
 }
 ul {
@@ -74,13 +74,14 @@ a:hover {
     text-align: center;
     order: 3;
     display: none;
+    background-color: black;
 }
 .item.active {
     display: block;
 }
 body{
     /* Set backround image */
-    background-image: url(../img/slime.jpg);
+    background-image: url(../img/slime.png);
     /* Let the background image cover the whole page */
     background-size: cover;
     /* Do not let the background repeat, only one time the image is shown */
@@ -160,13 +161,13 @@ body{
     .button.secondary a:hover {
         color: #ddd;
     } 
-    body{
-        background-image: url(../img/slime.jpg);
+    body {
+        background-image: url(../img/slime.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    .content{
+    .content {
         width: 50%;
         height: 20%;
         /* background: rgba(0, 151, 19, 0.3); */
@@ -216,13 +217,13 @@ body{
     .menu li.button {
         padding-right: 0;
     }
-    body{
-        background-image: url(../img/slime.jpg);
+    body {
+        background-image: url(../img/slime.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    .content{
+    .content {
         width: 40%;
         height: 100%;
         /* background: rgba(0, 151, 19, 0.3); */
