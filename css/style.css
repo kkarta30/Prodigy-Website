@@ -3,14 +3,44 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: monospace;
 }
 h1 {
     color: white;
     text-align: center;
     font-size: 5vw;
 }
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: rgb(58, 8, 8);
+    border: 7.5px black solid;
+    border-radius: 15px;
+    margin-bottom: 1vw;
+}
 p {
     color: white;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    padding: 7.5px 15px;
+    background: rgb(44, 6, 6);
+    border: 10px black solid;
+    border-radius: 20px;
+    margin: 5vw;
+    
+    text-decoration: none;
+    color: initial;
+}
+
+a.button:hover {
+    text-decoration: none;
+    background: rgb(77, 10, 10);
+    border-color: rgb(39, 2, 2);
 }
 
 
@@ -74,7 +104,6 @@ a:hover {
     text-align: center;
     order: 3;
     display: none;
-    background-color: black;
 }
 .item.active {
     display: block;
@@ -161,13 +190,13 @@ body{
     .button.secondary a:hover {
         color: #ddd;
     } 
-    body {
+    body{
         background-image: url(../img/slime.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    .content {
+    .content{
         width: 50%;
         height: 20%;
         /* background: rgba(0, 151, 19, 0.3); */
@@ -217,13 +246,13 @@ body{
     .menu li.button {
         padding-right: 0;
     }
-    body {
+    body{
         background-image: url(../img/slime.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    .content {
+    .content{
         width: 40%;
         height: 100%;
         /* background: rgba(0, 151, 19, 0.3); */
