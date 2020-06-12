@@ -20,7 +20,9 @@ h2 {
     margin-bottom: 1vw;
 }
 p {
-    color: white;
+    color: rgb(197, 197, 197);
+    text-align: center;
+    margin: 1vw;
 }
 
 a.button {
@@ -48,12 +50,16 @@ a.button:hover {
 body {
     font-family: sans-serif;
 }
+span {
+    text-decoration: underline;
+}
 nav {
     background: black;
     padding: 5px 20px;
 }
 ul {
     list-style-type: none;
+    margin-right: 2vw;
 }
 a {
     color: white;
