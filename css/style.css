@@ -54,6 +54,25 @@ a.button:hover {
     border-color: rgb(39, 2, 2);
 }
 
+.play {
+    background-image: url(../img/play.png);
+    width: 20%;
+    height: 110px;
+    margin-top: 3%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-left: 43%;
+    position: absolute;
+    
+}
+
+.play:hover {
+    transition: 0.5s;
+    filter: hue-rotate(40deg);
+}
+
 
 
 body {
@@ -134,11 +153,11 @@ body{
 }
 .content{
     width: 50%;
-    height: 20%px;
+    height: 20%;
     /* background: rgba(0, 151, 19, 0.3); */
     /* Center the content in tablet mode */
     margin: auto;
-    margin-top: 2%;
+    margin-top: 20%;
     margin-bottom: 10%;
     padding: 1%;
     padding-bottom: 200%;
@@ -146,7 +165,7 @@ body{
     /* border-style: solid;
     border-color: black; */
     background-image: url(../img/border.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -217,7 +236,7 @@ body{
         /* background: rgba(0, 151, 19, 0.3); */
         /* Center the content in tablet mode */
         margin: auto;
-        margin-top: 2%;
+        margin-top: 20%;
         border-radius: 5%;
         /* border-style: solid;
         border-color: black; */
@@ -225,7 +244,7 @@ body{
         font-size: 2.5vw;
         text-align: center;
         background-image: url(../img/border.png);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -273,7 +292,7 @@ body{
         /* background: rgba(0, 151, 19, 0.3); */
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 2%;
+        margin-top: 15%;
         padding-bottom: 30%;
         border-radius: 5%;
         /* border-style: solid;
@@ -283,7 +302,7 @@ body{
         /* Align the text to the left */
         text-align: left;
         background-image: url(../img/border.png);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         /* border-width: 20px; */
